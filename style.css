@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+body {
+    background-color: #f8f8f8;
+}
+
+.heading {
+    color: black;
+    background-color: #eaeaea;
+    font-size: 23px;
+    font-weight: 400;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.short {
+    font-size: 30px;
+   position: absolute;
+    top: 300px;
+    left: 540px;
+    
+}
+
+.detailed {
+    color: #484343;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.detailed:first-letter {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.list li {
+    
+    width: 400px;
+    height: 24px;
+    border: 1px solid black;
+    list-style-type: square;
+    font-size: 20px;
+}
+
+img[alt="Произошла ошибка"] {
+    outline-style: solid;
+    outline-color: black;
+}
+
+.picture:hover {
+    outline: none;
+}
+
+
+
+.input {
+    text-align: center;
+    position: relative;
+}
+
+#name {
+    text-align: center;
+    position: relative;
+    left: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+#email {
+    text-align: center;
+    position: relative;
+    left: 11px;
+    margin-bottom: 5px;
+    font-size: 15px;
+     text-transform: capitalize;
+}
+
+#email:hover {
+    color: crimson;
+    background-color: antiquewhite;
+}
+
+#theme {
+    text-align: center;
+    position: relative;
+    left: 16px;
+    margin-bottom: 5px;
+    font-size: 15px;
+     text-transform: capitalize;
+}
+
+.button {
+    margin-top: 5px;
+    height: 30px;
+}
+
+.table {
+    border: 2px solid black;
+    width: 280px;
+    height: 200px;
+    border-collapse: collapse;
+    margin-left: 40px;
+}
+
+.table td {
+    border: 3px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+#logo {
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer {
+    height: 25px;
+    background-color:floralwhite;
+    text-align: right;
+    padding-right: 20px;
+}
+
+button {
+    width: 250px;
+    height: 120px;
+    font-size: 60px;
+    position: absolute;
+    top: 600px;
+    left: 800px;
+     
+}
+button:hover {
+  background:#ccc ;
+}
+.map {
+    width: 100%;
+    height: 374px;
+}
+
+button:active {
+  background:lightblue;
+}
+
+.menu-list {
+    list-style-type: none;
+    position: relative;
+    float: left;
+    left: 1300px;
+    top: -40px;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+.menu-link:hover {
+    color: #212121;
+}
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+.logo {
+    padding-top: 50px;
+    padding-left: 90px;
+}
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 400;
+    text-transform: uppercase;
+     
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 20px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 30px;
+    line-height:  24px;
+    text-align: center;
+    margin-left: 99px;
+    
+}
+.slider-text {
+   margin-top: 283px;
+   margin-left: 200px;
+}
+.photo {
+    position: absolute;
+    
+    top: 200px;
+    right: 100px;
+}
+.cls {
+    height: 200px;
+}
+.textus {
+    padding-left: 100px;
+}
+.ourcontacts {
+    position: absolute;
+    top: 226px;
+    left: 1000px;
+}
+.row {
+    padding-left: 10px;
+}
+.col-md-4 {
+    text-align: center;
+}
+.title {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+.title-active:hover {
+    color: red;
+}
+.tovar {
+    padding-left: 20px;
+        padding-top: 10px;
+}
