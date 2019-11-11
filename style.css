@@ -20,7 +20,7 @@ body {
 .heading {
     color: black;
     background-color: #eaeaea;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 400;
     border: 2px solid black;
     text-align: center;
@@ -36,7 +36,7 @@ body {
 
 .detailed {
     color: #484343;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
@@ -48,11 +48,12 @@ body {
 }
 
 .list li {
-    width: 350px;
-    height: 20px;
+    
+    width: 400px;
+    height: 24px;
     border: 1px solid black;
     list-style-type: square;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 img[alt="Произошла ошибка"] {
@@ -117,8 +118,9 @@ img[alt="Произошла ошибка"] {
 }
 
 .table td {
-    border: 2px solid black;
-    text-align: center
+    border: 3px solid black;
+    text-align: center;
+    font-size: 20px
 }
 #logo {
     position: relative;
