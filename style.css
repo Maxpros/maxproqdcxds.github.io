@@ -120,7 +120,7 @@ img[alt="Произошла ошибка"] {
 .table td {
     border: 3px solid black;
     text-align: center;
-    font-size: 20px
+    font-size: 20px;
 }
 #logo {
     position: relative;
